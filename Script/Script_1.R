@@ -113,4 +113,4 @@ boxplot(fert$IE ~ fert$Tratamiento,
         col= "red",
         main= "vivero bosque escuela",
         las= 1,
-        ylim= c(0.4, 1.4))
+        ylim= c(0.4, 1.4))  
