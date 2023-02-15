@@ -420,6 +420,8 @@ conjunto</code></pre>
 ## 50    50    24       H        D       3     20.9  16.25</code></pre>
 <pre class="r"><code># Seleccion de datos ------------------------------------------------------
 
+#Incluir los datos iguales o menores a la media (objeto en R se llame: H.media)
+
 mean(conjunto$Altura)</code></pre>
 <pre><code>## [1] 13.9432</code></pre>
 <pre class="r"><code>H.media &lt;- subset(conjunto, Altura&lt;= mean(conjunto$Altura))
@@ -448,6 +450,99 @@ H.media</code></pre>
 ## 44    44    22       C        I       5     13.0  10.88
 ## 45    45    24       C        I       4     10.2  13.93
 ## 46    46    23       F        I       3     14.4  12.68
+## 47    47    24       C        S       6      7.7  10.00
+## 48    48    25       C        S       5      9.9   8.69</code></pre>
+<pre class="r"><code>#Incluir los datos menores a 16.5 m (objeto en R se llame: H.16)
+
+H.16 &lt;- subset(conjunto, Altura&lt; 16.5)
+H.16</code></pre>
+<pre><code>##    Arbol Fecha Especie Posicion Vecinos Diametro Altura
+## 1      1    12       F        C       4     15.3  14.78
+## 4      4     9       H        S       4      9.7   8.79
+## 5      5     7       H        I       6     10.8  10.18
+## 6      6    10       C        I       3     14.1  14.90
+## 7      7    10       C        C       2     17.1  15.34
+## 9      9    16       F        C       4     18.2  15.15
+## 10    10    14       F        I       5     16.1  14.66
+## 13    13    12       F        I       2     19.1  14.18
+## 14    14     5       C        I       2     16.7  13.40
+## 15    15    12       C        S       4     18.9  10.40
+## 16    16    20       H        S       3     12.4  11.52
+## 17    17    15       H        C       0     17.3  14.61
+## 20    20    14       C        I       3     17.7  11.38
+## 21    21    14       C        S       5     13.4   8.50
+## 22    22    13       C        I       4     16.2  12.80
+## 24    24    20       F        I       4     15.0  14.48
+## 25    25    21       F        C       2     18.8  14.81
+## 26    26     5       H        I       4     15.8  12.01
+## 27    27     2       H        I       3     16.1  11.70
+## 28    28    22       C        C       3     15.4  16.03
+## 29    29    22       C        I       0     17.8  14.46
+## 30    30    18       C        S       1     18.5   8.47
+## 31    31    16       C        I       3     14.1  11.22
+## 32    32    16       C        C       5     14.8  12.34
+## 34    34    17       F        I       6     13.8  16.06
+## 35    35    18       F        S       4     13.0  13.20
+## 36    36    20       H        C       2     18.2  14.30
+## 38    38    20       H        I       3     17.8  13.84
+## 39    39    17       C        I       4     13.1  11.31
+## 40    40    17       C        I       6     12.8  13.20
+## 41    41    16       C        C       3     13.3  13.75
+## 42    42    23       F        C       3     15.6  14.60
+## 43    43    23       H        C       4     16.6  12.56
+## 44    44    22       C        I       5     13.0  10.88
+## 45    45    24       C        I       4     10.2  13.93
+## 46    46    23       F        I       3     14.4  12.68
+## 47    47    24       C        S       6      7.7  10.00
+## 48    48    25       C        S       5      9.9   8.69
+## 50    50    24       H        D       3     20.9  16.25</code></pre>
+<pre class="r"><code>#Aplicar la función subset para la variable Vecinos
+
+#Incluir los árboles que tengan un número de vecinos iguales o menores a 3 (Objeto en R: Vecinos-3)
+
+Vecinos.3 &lt;- subset(conjunto, Vecinos&lt;= 3)
+Vecinos.3</code></pre>
+<pre><code>##    Arbol Fecha Especie Posicion Vecinos Diametro Altura
+## 2      2    12       F        D       3     17.8  17.07
+## 6      6    10       C        I       3     14.1  14.90
+## 7      7    10       C        C       2     17.1  15.34
+## 8      8    12       C        D       2     20.6  17.22
+## 11    11     8       H        D       3     14.2  17.43
+## 13    13    12       F        I       2     19.1  14.18
+## 14    14     5       C        I       2     16.7  13.40
+## 16    16    20       H        S       3     12.4  11.52
+## 17    17    15       H        C       0     17.3  14.61
+## 18    18    20       F        D       1     22.7  21.46
+## 20    20    14       C        I       3     17.7  11.38
+## 23    23    14       F        D       1     18.5  18.71
+## 25    25    21       F        C       2     18.8  14.81
+## 27    27     2       H        I       3     16.1  11.70
+## 28    28    22       C        C       3     15.4  16.03
+## 29    29    22       C        I       0     17.8  14.46
+## 30    30    18       C        S       1     18.5   8.47
+## 31    31    16       C        I       3     14.1  11.22
+## 36    36    20       H        C       2     18.2  14.30
+## 37    37    22       H        C       0     22.3  16.84
+## 38    38    20       H        I       3     17.8  13.84
+## 41    41    16       C        C       3     13.3  13.75
+## 42    42    23       F        C       3     15.6  14.60
+## 46    46    23       F        I       3     14.4  12.68
+## 49    49    25       H        D       1     20.4  16.73
+## 50    50    24       H        D       3     20.9  16.25</code></pre>
+<pre class="r"><code>#Incluir los árboles que tengan un número de vecinos mayores a 4 (Objeto en R: Vecinos-4)
+
+vecinos.4 &lt;- subset(conjunto, Vecinos&gt; 4)
+vecinos.4</code></pre>
+<pre><code>##    Arbol Fecha Especie Posicion Vecinos Diametro Altura
+## 3      3     9       C        D       5     18.2  18.28
+## 5      5     7       H        I       6     10.8  10.18
+## 10    10    14       F        I       5     16.1  14.66
+## 12    12     5       H        D       6     14.8  17.45
+## 21    21    14       C        S       5     13.4   8.50
+## 32    32    16       C        C       5     14.8  12.34
+## 34    34    17       F        I       6     13.8  16.06
+## 40    40    17       C        I       6     12.8  13.20
+## 44    44    22       C        I       5     13.0  10.88
 ## 47    47    24       C        S       6      7.7  10.00
 ## 48    48    25       C        S       5      9.9   8.69</code></pre>
 
