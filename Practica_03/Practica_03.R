@@ -31,3 +31,5 @@ shapiro.test(Geiser$eruptions)
 #se hace una prueba de correlación.
 
 cor.test(Geiser$eruptions, Geiser$waiting)
+
+boxplot(Geiser$eruptions, Geiser$waiting)
