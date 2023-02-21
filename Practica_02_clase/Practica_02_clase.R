@@ -27,3 +27,5 @@ var.test(Ctrl$IE, Fert$IE)
 #Prueba de T de student 
 
 t.test(Ctrl$IE, Fert$IE, var.equal=T)
+
+t.test(Ctrl$IE, Fert$IE)
