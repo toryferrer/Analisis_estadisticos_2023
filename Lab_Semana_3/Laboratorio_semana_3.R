@@ -13,13 +13,18 @@ dbh <- c(16.5, 25.3,22.1, 17.2, 16.1, 8.1, 34.3, 5.4, 5.7, 11.2, 24.1, 14.5, 7.7
 
 #datos de URL no seguras (http)
 
-#prof_url <- source_data("http://www.profepa.gob.mx/innovaportal/file/7635/1/accionesInspeccionfoanp.csv")
-#head(prof_url)
+prof_url <- source_data("http://www.profepa.gob.mx/innovaportal/file/7635/1/accionesInspeccionfoanp.csv")
+head(prof_url)
+
+library(reader)
+prof_ur2 <- "http://www.profepa.gob.mx/innovaportal/file/7635/1/accionesInspeccionfoanp.csv"
+profepa <- read.csv(prof_ur2)
+
 
 #datos de URL seguras (https)
-
-#conjunto <- source_data("https://www.dropbox.com/s/hmsf07bbayxv6m3/cuadro1.csv?dl=1")
-#head(conjunto)
+library(repmis)
+conjunto <- source_data("https://www.dropbox.com/s/hmsf07bbayxv6m3/cuadro1.csv?dl=1")
+head(conjunto)
 
 #datos de github
 
@@ -44,5 +49,63 @@ sd(trees$dbh)
 
 #igual o mayor (>=), mayor que (>), igual que (==)
 #igual o menor (<=), menor que (<), no igual (!=)
+
+# Indica la sumatoria de los individuos en el objeto trees con un dbh < a 10
+
+sum(trees$dbh < 10)
+
+#cuales individuos son inferiores a dbh<10
+
+which(trees$dbh<10)
+
+#excluir diametro que se encuentra en la parcela 2
+
+# no tenemos la columna de parcelas en los datos 
+
+trees.13 <- trees[!(trees$parcela=="2")]
+
+#seleccion de una submuestra #diametro menores o iguales a 10
+
+trees.1 <- subset(trees, dbh<=10)
+head(trees.1)
+
+mean(trees$dbh)
+
+mean(trees.1$dbh)
+
+# Parte 3 Representacion grafica ------------------------------------------
+
+#histogramas 
+
+mamiferos <- read.csv("https://www.openintro.org/data/csv/mammals.csv")
+
+head(mamiferos)
+
+#Por el momento trabajaremos con la variable total_sleep para generar el histograma:
+
+hist(mamiferos$total_sleep)
+
+hist(mamiferos$total_sleep, #datos
+     xlim = c(0,20), ylim = c(0,14), main = "Total de horas sueño de las 39 especies", #cambiar titulo
+     xlab = "Horas sueño", #cambiar eje de las x
+     ylab = "Frecuencia", #cambiar eje de las y
+     las = 1, #cambiar orientacion de y
+     col = "#883300") #cambiar color a las barras
+
+
+#Barplot o grafica de barras
+
+data("chickwts")
+
+head(chickwts[c(1:2, 42:43, 62:64),])
+
+feeds <- table(chickwts$feed)
+feeds
+
+barplot(feeds)
+
+barplot(feeds[order(feeds, decreasing = TRUE)], main = "Frecuencias por tipos de
+alimentación",
+        ylab = "numero de pollos")
 
 
