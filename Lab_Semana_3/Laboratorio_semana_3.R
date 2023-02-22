@@ -116,8 +116,11 @@ feeds <- table(chickwts$feed)
 feeds
 
 barplot(feeds)
+# ordenarla de forma decreciente 
 
-# ordenarla de forma decreciente y darle presentacion a la grafica 
+barplot(feeds[order(feeds, decreasing = FALSE)])
+
+#y darle presentacion a la grafica 
 barplot(feeds[order(feeds, decreasing = FALSE)], main = "Frecuencias por tipos de
 alimentación",
         xlab = "Numero de pollos",
