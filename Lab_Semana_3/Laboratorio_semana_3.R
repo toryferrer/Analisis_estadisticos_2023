@@ -19,9 +19,16 @@ dbh <- c(16.5, 25.3,22.1, 17.2, 16.1, 8.1, 34.3, 5.4, 5.7, 11.2, 24.1, 14.5, 7.7
 
 #ademas se agrego el # para ponerlos como texto porque al momento de copilarlos no dejaba y marcaba como que el programa no econtro el archivo especificado
 
-#prof_url <- source_data("http://www.profepa.gob.mx/innovaportal/file/7635/1/accionesInspeccionfoanp.csv")
-#head(prof_url)
+prof_url <-"http://www.profepa.gob.mx/innovaportal/file/7635/1/accionesInspeccionfoanp.csv"
+profepa <- read.csv(prof_url, encoding = "latin1")
+head(profepa)
 
+mean(profepa$Inspección)
+
+fivenum(profepa$Inspección)
+
+mayor.inc <- subset(profepa, profepa$Inspección>=16)
+mayor.op <- subset(profepa, profepa$Inspección >=2)
 #datos de URL seguras (https)
 
 library(repmis)
