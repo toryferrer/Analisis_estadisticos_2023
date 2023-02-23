@@ -471,10 +471,14 @@ hist(germ.2)</code></pre>
 
 mean(germ2$germ.2)</code></pre>
 <pre><code>## [1] 7</code></pre>
+<pre class="r"><code>mean(petri)</code></pre>
+<pre><code>## [1] 2.6</code></pre>
 <pre class="r"><code>#¿Cuál es la mediana? Muestre su trabajo o código, o explique cómo obtuvo su respuesta
 
 median(germ2$germ.2)</code></pre>
 <pre><code>## [1] 7</code></pre>
+<pre class="r"><code>median(petri)</code></pre>
+<pre><code>## [1] 3</code></pre>
 <pre class="r"><code># Problema 6 --------------------------------------------------------------
 
 #En este problema, exploramos el efecto sobre la media, la mediana y la moda de: 1) sumar elvmismo número a cada valor de datos, y 2) de multiplicar cada valor de datos por el mismo número. Use el siguiente conjunto de datos
@@ -502,7 +506,7 @@ mean(set.5)</code></pre>
 <pre><code>## [1] 7</code></pre>
 <pre class="r"><code>#Compare los resultados de las partes (a) y (b). En general, ¿cómo crees que la moda, la mediana y la media se ven afectadas cuando se agrega la misma constante a cada valor de datos en un conjunto?
 
-#no se ve afectada solo va incrementado su valor. 
+#Se incrementa el resultado de acuerdo con el valor de la constante 
 
 #Multiplique cada valor de los datos por 5. Calcule la moda, la mediana y la media.
 
@@ -540,9 +544,9 @@ mean(otros_datos)</code></pre>
 <pre><code>## [1] 2</code></pre>
 <pre class="r"><code>#Enumere cinco dígitos que tengan una mediana de 7 y una media inferior a 7 (se permiten repeticiones).
 
-digitos &lt;- c(1,5,7,8,9)
+digitos &lt;- c(1,2,7,8,9)
 mean(digitos)</code></pre>
-<pre><code>## [1] 6</code></pre>
+<pre><code>## [1] 5.4</code></pre>
 <pre class="r"><code>median(digitos)</code></pre>
 <pre><code>## [1] 7</code></pre>
 <pre class="r"><code>#Da la media de tus 5 dígitos. Encuentra un conjunto diferente de 5 dígitos que funcione.

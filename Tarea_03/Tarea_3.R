@@ -91,6 +91,7 @@ germ2 <- data.frame(c.petri, germ.2)
 
 mean(germ2$germ.2)
 
+
 #¿Qué tipo de gráfico podrías usar para visualizar estos datos?
 
 #grafita de tallos y hoja 
@@ -105,12 +106,12 @@ hist(germ.2)
 
 mean(germ2$germ.2)
 
-
+mean(petri)
 #¿Cuál es la mediana? Muestre su trabajo o código, o explique cómo obtuvo su respuesta
 
 median(germ2$germ.2)
 
-
+median(petri)
 # Problema 6 --------------------------------------------------------------
 
 #En este problema, exploramos el efecto sobre la media, la mediana y la moda de: 1) sumar elvmismo número a cada valor de datos, y 2) de multiplicar cada valor de datos por el mismo número. Use el siguiente conjunto de datos
@@ -134,7 +135,7 @@ mfv(set.5)
 
 #Compare los resultados de las partes (a) y (b). En general, ¿cómo crees que la moda, la mediana y la media se ven afectadas cuando se agrega la misma constante a cada valor de datos en un conjunto?
 
-#no se ve afectada solo va incrementado su valor. 
+#Se incrementa el resultado de acuerdo con el valor de la constante 
 
 #Multiplique cada valor de los datos por 5. Calcule la moda, la mediana y la media.
 
@@ -167,7 +168,7 @@ median(otros_datos)
 
 #Enumere cinco dígitos que tengan una mediana de 7 y una media inferior a 7 (se permiten repeticiones).
 
-digitos <- c(1,5,7,8,9)
+digitos <- c(1,2,7,8,9)
 mean(digitos)
 median(digitos)
 
