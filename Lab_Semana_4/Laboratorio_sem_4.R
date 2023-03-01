@@ -100,9 +100,12 @@ barplot(frep_especie, las = 1, border = NA, cex.names = 0.7)
 
 #grafico circula o de pie
 
+inventario$Especie <- factor(inventario$Especie)
+is.factor(inventario$Especie)
+
 pie(frep_especie, col=topo.colors(4))
 
-pie(frep_especie, col = topo.colors(4),
+pie(frep_especie, col = topo.colors(3),
     labels = paste(levels(inventario$Especie), round(perc_especie, 2), " %"))
 
 
@@ -134,7 +137,7 @@ altura_hist$breaks
 
 h2 <- hist(inventario$Altura, xaxt = "n",
            breaks = c(8, 10, 12, 14, 16, 18, 20, 22),
-           col = "orange", xlab="Diámetros (cm)",
+           col = "orange", xlab="Alturas (cm)",
            ylab= "Frecuencias",
            main = "",
            las = 1,
