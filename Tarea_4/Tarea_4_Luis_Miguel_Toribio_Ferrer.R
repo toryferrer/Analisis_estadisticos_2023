@@ -26,9 +26,10 @@ h2 <- hist(x2, xaxt = "n",
            main = "",
            las = 1,
            ylim = c(0,250))
-h2
+
 axis(1, h2$mids)
 
+h2
 #Incluir los siguientes intervalos de clase y personalizas con los puntosmedios de cada intervalo de clasemids. 
 
 # (0, 1](1, 2](2, 4](4, 7](7, 10]
@@ -40,9 +41,10 @@ h3 <- hist(x2, xaxt = "n", freq = TRUE,
            main = "",
            las = 1,
            ylim = c(0,400))
-h3
+
 axis(1, h3$mids)
 
+h3
 #¿Cuál distribución parece estar sesgada a la derecha?
 
 # Histograma D
@@ -53,7 +55,7 @@ axis(1, h3$mids)
 
 # ¿Cuál distribución parece ser simétrica o en forma de “campana”?
 
-# histograma C
+# Histograma C
 
 # ¿Cuál distribución parece ser bimodal?
 
@@ -76,10 +78,9 @@ mags <-  hist(quakes$mag, xaxt = "n",# breaks = c(en caso de necesitar aqui se p
           las = 1,
           ylim = c(0,260))
 
-mags
-
 axis(1, mags$mids)
 
+mags
 # ¿Cómo describiría la forma de esta distribución de las magnitudes de los terremotos?
 
 # sesgada a la derecha
@@ -99,17 +100,23 @@ range(mags$breaks, na.rm = TRUE)
 clase_1 <- subset(quakes, mag>=5.1)
 clase_5_3 <- subset(clase_1, mag<= 5.4)
 
+dim(clase_5_3)
+
 ((113/1000)*100)
 
 # ¿Qué porcentaje de los terremotos tiene una magnitud igual o mayor a 5.0?
 
 ig_may_5 <- subset(quakes, mag>=5)
 
+dim(ig_may_5)
+
 ((198/1000)*100)
 
 # ¿Qué porcentaje de los terremotos tienen una magnitud menor o igual a 4.6?
 
 men_ig_4_6 <- subset(quakes, mag<=4.6)
+
+dim(men_ig_4_6)
 
 ((585/1000)*100)
 
@@ -182,32 +189,34 @@ range(fires)
 
 #Q1 (25%)
 
-Q1 <- quantile(fire, c(0.25)); Q1
+Q1 <- quantile(fires, c(0.25)); Q1
 
 #Q2 (50%)
 
-Q2 <- quantile(fire, c(0.50)); Q2
+Q2 <- quantile(fires, c(0.50)); Q2
 
 #Q3 (75%)
 
-Q3 <- quantile(fire, c(0.75)); Q3
+Q3 <- quantile(fires, c(0.75)); Q3
 
 # MEDIA 
 
-mean(fire)
+mean(fires)
 
 # Varianza
 
-var(fire)
+var(fires)
 
 # Desviación estándar 
 
-sd(fire)
+sd(fires)
 
 # Realice un boxplot personalizado con los datos de los incendios.
 
-boxplot(fire, ylab="fires", 
+boxplot(fires, ylab="fires", 
         las = 1, 
         horizontal = TRUE, 
         col="red",
         main = "Incendios")
+#Fin
+
