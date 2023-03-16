@@ -9,12 +9,12 @@ plotweb(sortweb(red, sort.order="inc"), method = "cca", text.rot = 90, col.low= 
 visweb(red,  type = "diagonal", prednames=TRUE, preynames=TRUE, labsize=1,
        plotsize=5, square="interaction")
 
+
 library(igraph)
 
 red1 <- graph.incidence(red, weighted=NULL)
 
 plot(red1)
-
 
 networklevel(red)
 
