@@ -1,27 +1,22 @@
 library(bipartite)
 
-data(Safariland)
-plotweb(Safariland)
-
-
-
-
 matriz <- read.csv("Interacciones_ecologia/matriz.csv")
 red<-data.frame(matriz, row.names=1)
 
 
-plotweb(red, method = "cca", text.rot = 90, col.low="red", bor.col.interaction ="black", col.high = "green",labsize = 1.5)
+plotweb(sortweb(red, sort.order="inc"), method = "cca", text.rot = 90, col.low= "blue", bor.col.interaction ="black", col.high ="red",labsize = 1.5, col.interaction="gray")
 
-visweb(red, type = "diagonal")
+visweb(red,  type = "diagonal", prednames=TRUE, preynames=TRUE, labsize=1,
+       plotsize=5, square="interaction")
 
 library(igraph)
 
 red1 <- graph.incidence(red, weighted=NULL)
 
-V(red1)
-V(red1)$type
-V(red1)$name
-E(red1)
-E(red1)$weight
-
 plot(red1)
+
+
+networklevel(red)
+
+specieslevel(red)
+             
