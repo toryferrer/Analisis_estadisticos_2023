@@ -13,6 +13,6 @@ semana 5: Repaso de estadistica basica, importar base de datos en linea y elabor
 
 semana 6: Correlación, cuarteto de anscombe, coeficiente de correlación
   
-semana 7:Repaso de boxplots y correlación
+semana 7: Repaso de boxplots y correlación
 
-semana 8:  Examen practico en Rstudio 
+semana 8: Examen practico en Rstudio 
