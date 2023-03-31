@@ -74,6 +74,8 @@ which(trees$dbh<10)
 #excluir los diametros que se encuentra en la parcela 2
 
 trees.13 <- trees[!(trees$parcela=="2"),]
+treesss <- subset(trees, parcela!="2")
+treaes <- subset(trees, parcela=="2")
 
 # laboratorio 4 -----------------------------------------------------------
 
@@ -118,3 +120,19 @@ prop_position
 
 perc_position <- 100*prop_position
 perc_position
+
+
+
+diam_hist <- hist(inventario$Diametros, las=1, col="red")
+
+diam_hist
+
+h1 <- hist(inventario$Diametros,xaxt="n", 
+           breaks = c(6, 8, 10, 12, 14, 16, 18, 20, 22, 24),
+           col = "red",
+           xlab = "diametro cm",
+           ylab= "frecuencia",
+           las=1,
+           ylim=c(0,14))
+axis(1,h1$mids)
+           
