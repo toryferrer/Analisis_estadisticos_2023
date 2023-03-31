@@ -1,5 +1,6 @@
 #examen 
 #Alumno: Ing. Luis Miguel Toribio Ferrer
+#Matricula: 2173385
 #Fecha: 31/03/2023
 
 
@@ -94,7 +95,7 @@ cor.test(suelo$Clay1, suelo$Clay5)
 
 
 plot(suelo$Clay5~suelo$Clay1)
-abline(regresion)
+#abline(regresion)
 
 lm(suelo$Clay5~suelo$Clay1)
 regresion <- lm(suelo$Clay5~suelo$Clay1)
