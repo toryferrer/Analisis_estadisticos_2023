@@ -75,13 +75,46 @@ which(trees$dbh<10)
 
 trees.13 <- trees[!(trees$parcela=="2"),]
 
+# laboratorio 4 -----------------------------------------------------------
+
+inventario <- source_data("https://raw.githubusercontent.com/mgtagle/PrincipiosEstadistica2021/main/cuadro1.csv")
+
+#estructura de las columna de los datos
+str(inventario)
+#muestra las dimensiones de los datos
+dim(inventario)
+#muestra las primeras n filas
+head(inventario, n=8)
+#muestra las ultimas n filas
+tail(inventario, n=3)
+#nombre de las columnas
+names(inventario)
+#igual los nombres de las columnas 
+colnames(inventario)
+#resumen de los estadisticos de las variables presentes en un inventario 
+summary(inventario)
+
+#resumen basico de las primeras 3 a 5 columnas
+summary(inventario[,3:5])
+
+#nombre de las primeras cincos columnas
+names(inventario[,1:5])
+
+is.factor(inventario$Posicion)
+
+inventario$Posicion <- factor(inventario$Posicion)
+is.factor(inventario$Posicion)
+
+summary(inventario[,3:5])
+
+freq_position <-table(inventario$Posicion)
+freq_position
 
 
+#frecuencia relativa 
 
+prop_position <- freq_position/sum(freq_position)
+prop_position
 
-
-
-
-
-
-
+perc_position <- 100*prop_position
+perc_position
