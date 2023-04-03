@@ -7,7 +7,7 @@ Clase 2: Generación de Script con operaciones y estadística básica, boxplot, 
   
 Clase 3: Importar datos desde URL's, función subset(), representaciones gráficas (histogramas, barplot)
   
-Clase 4: Resumir datos graficamente (Grafica circular, histogramas)
+Clase 4: Resumir datos graficamente (Gráfica circular, histogramas)
   
 Clase 5: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas
 
