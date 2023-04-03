@@ -1,18 +1,18 @@
 # Analisis_estadisticos_2023
-Almacenar codigos del curso
+Almacenar códigos del curso
 
-Clase 1: Creación de cuenta de GitHub y sincornización de Git con RStudio
+Clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
 
-Clase 2: Elaboración de Script con operaciones y estadistica basica, boxplot, histogramas e importación base de datos
+Clase 2: Generación de Script con operaciones y estadística básica, boxplot, histogramas e importación de bases de datos
   
-Clase 3: Importar datos desde URL's, funcion subset(), representaciones graficas (histogramas, barplot)
+Clase 3: Importar datos desde URL's, función subset(), representaciones gráficas (histogramas, barplot)
   
 Clase 4: Resumir datos graficamente (Grafica circular, histogramas)
   
-Clase 5: Repaso de estadistica basica, importar base de datos en linea y elaboracion de histogramas
+Clase 5: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas
 
 Clase 6: Correlación, cuarteto de anscombe, coeficiente de correlación
   
 Clase 7: Repaso de boxplots y correlación
 
-Clase 8: Examen practico en Rstudio 
+Clase 8: Examen práctico en Rstudio 
