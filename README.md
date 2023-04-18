@@ -30,12 +30,16 @@ Semana 04:
 
 Semana 05: 
 
-+ 📅 23/02/2023: Clase 5: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas.
++ 📅 23/02/2023: Clase 5: Correlación, cuarteto de anscombe, coeficiente de correlación.
 + 📅 10/03/2023: [Laborotorio 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_5): Correlación.
 + 📅 10/03/2023: [Tarea 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_05): Correlación.
 
-Clase 6: Correlación, cuarteto de anscombe, coeficiente de correlación
+Semana 06:
+
++ 📅 02/03/2023: Clase 6: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas.
+
+Semana 07:
   
-Clase 7: Repaso de boxplots y correlación
++ 📅 09/03/2023: Clase 7: Repaso de boxplots y correlación
 
 Clase 8: Examen práctico en Rstudio 
