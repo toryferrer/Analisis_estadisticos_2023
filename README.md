@@ -27,8 +27,12 @@ Semana 04:
 + 📅 16/02/2023: Clase 04: Resumir datos graficamente (Gráfica circular, histogramas).
 + 📅 01/03/2023: [Laborotorio 04](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_4): Resumir datos gráficamente.
 + 📅 01/03/2023: [Tarea 04](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_04): Boxplot e Histogramas.
-  
-Clase 5: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas
+
+Semana 05: 
+
++ 📅 23/02/2023: Clase 5: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas.
++ 📅 10/03/2023: [Laborotorio 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_5): Correlación.
++ 📅 10/03/2023: [Tarea 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_05): Correlación.
 
 Clase 6: Correlación, cuarteto de anscombe, coeficiente de correlación
   
