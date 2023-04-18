@@ -1,7 +1,7 @@
 # Ing. Luis Miguel Toribio Ferrer
 # Análisis estadísticos 2023
 # Almacenar códigos del curso
-#Producto integrador del aprendizaje
+# Producto integrador del aprendizaje
 
 #Repositorio GitHub
 
