@@ -7,7 +7,7 @@
 
 Semana 01: 
 
-+📍26/01/2023: Creación de la cuenta de GitHub y sincronización de Git con RStudio
++ 📍26/01/2023: Creación de la cuenta de GitHub y sincronización de Git con RStudio
 
 
 Clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
