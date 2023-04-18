@@ -44,5 +44,5 @@ Semana 07:
 
 Semana 08:
 
-+ 📅 16/03/2023: [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico en Rstudio
++ 📅 16/03/2023: [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en Rstudio.
 
