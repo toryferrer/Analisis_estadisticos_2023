@@ -46,3 +46,7 @@ Semana 08:
 
 + 📅 16/03/2023: [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en Rstudio.
 
+# Contribución a mi respositorio a lo largo del semestre.
+![image](https://user-images.githubusercontent.com/123662633/232903223-4f2b180b-45e2-496f-8567-1d569b480bf4.png)
+
+
