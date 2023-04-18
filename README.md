@@ -9,7 +9,7 @@ Semana 01:
 
 + 📍 26/01/2023: clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
 + 📍 03/02/2023: Laboratorio 1: Empezar con R y RStudio
-+ 📍 03/02/2023: Asignación 1: Primer análisis en R
++ 📍 03/02/2023: Tarea 1: Primer análisis en R
 
 Clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
 
