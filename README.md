@@ -1,8 +1,8 @@
 # Análisis_estadísticos_2023
-Producto integrador del aprendizaje
-Repositorio GitHub
-Ing. Luis Miguel Toribio Ferrer
-Almacenar códigos del curso
+#Producto integrador del aprendizaje
+#Repositorio GitHub
+# Ing. Luis Miguel Toribio Ferrer
+# Almacenar códigos del curso
 
 Clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
 
