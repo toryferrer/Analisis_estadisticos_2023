@@ -17,9 +17,16 @@ Semana 02:
 + 📅 23/02/2023: [Laboraotorio 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_3): Importar datos a R.
 + 📅 23/02/2023: [Tarea 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_02): Uso de restricciones y estadísticas descriptivas.
   
-Clase 3: Importar datos desde URL's, función subset(), representaciones gráficas (histogramas, barplot)
-  
-Clase 4: Resumir datos graficamente (Gráfica circular, histogramas)
+Semana 03:
+
++ 📅 09/02/2023: Clase 03: Importar datos desde URL's, función subset(), representaciones gráficas (histogramas, barplot).
++ 📅 25/02/2023: [Tarea 03](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_03) Medidas de tendencia central
+
+Semana 04:
+
++ 📅 16/02/2023: Clase 04: Resumir datos graficamente (Gráfica circular, histogramas).
++ 📅 01/03/2023: [Laborotorio 04](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_4): Resumir datos gráficamente.
++ 📅 01/03/2023: [Tarea 04](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_04): Boxplot e Histogramas.
   
 Clase 5: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas
 
