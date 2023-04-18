@@ -40,6 +40,9 @@ Semana 06:
 
 Semana 07:
   
-+ 📅 09/03/2023: Clase 7: Repaso de boxplots y correlación
++ 📅 09/03/2023: Clase 7: Repaso de boxplots y correlación.
 
-Clase 8: Examen práctico en Rstudio 
+Semana 08:
+
++ 📅 16/03/2023: [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico en Rstudio
+
