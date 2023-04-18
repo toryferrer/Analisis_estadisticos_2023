@@ -1,8 +1,7 @@
-# Análisis estadísticos 2023
 # Ing. Luis Miguel Toribio Ferrer
+# Análisis estadísticos 2023
 # Almacenar códigos del curso
 #Producto integrador del aprendizaje
-
 #Repositorio GitHub
 
 Clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
