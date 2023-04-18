@@ -8,7 +8,7 @@
 Semana 01: 
 
 + 📍 26/01/2023: clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
-+ 📍 03/02/2023: Laboratorio 1: Empezar con R y RStudio [https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_1]
++ 📍 03/02/2023: Laboratorio 1: Empezar con R y RStudio (https://github.com/toryferrer/Analisis_estadisticos_2023/blob/0c3515386d49f6949f6d5b1a1810c73d6e7bcc17/Laboratorios/Lab_Semana_1/Lab_Semana_1.pdf)
 + 📍 03/02/2023: Tarea 1: Primer análisis en R
 
 Clase 1: Creación de la cuenta de GitHub y sincronización de Git con RStudio
