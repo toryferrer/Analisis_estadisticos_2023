@@ -23,7 +23,7 @@
 
 📅 <sub> 09/02/2023: <sub> 
 + Clase 03: Importar datos desde URL's, función subset(), representaciones gráficas (histogramas, barplot).
-   + 📌 25/02/2023: [Tarea 03](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_03) Medidas de tendencia central
+   + 📌 25/02/2023: [Tarea 03](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_03): Medidas de tendencia central.
 
 ***Semana 04:***
 
@@ -52,7 +52,7 @@
 ***Semana 08:***
 
 📅 <sub> 16/03/2023: <sub> 
-+ [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en Rstudio.
++ [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en R-Studio.
 
 # Contribución a mi respositorio a lo largo del semestre.
 ![image](https://user-images.githubusercontent.com/123662633/232937465-6c3f50f0-fc9b-49fd-a1d3-716ba742cc1f.png)
