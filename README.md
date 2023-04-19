@@ -7,7 +7,7 @@
 
 ***Semana 01:***
 
-📅 <sub> 26/01/2023:  [Clase 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_1): Creación de la cuenta de GitHub y sincronización de Git con RStudio.
+📅 <sub> 26/01/2023: Sintaxis [Clase 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_1): Creación de la cuenta de GitHub y sincronización de Git con RStudio.
     + 🗝️ 03/02/2023: [Laboratorio 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_1): Empezar con R y RStudio.
       + 📌 03/02/2023: [Tarea 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_01): Primer análisis en R.
 
