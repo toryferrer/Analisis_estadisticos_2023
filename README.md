@@ -3,7 +3,7 @@
    # 🕵️‍♀️      Análisis estadísticos 2023
  
 
-#Repositorio GitHub
+Dessarrollo del curso de Análisis estadísticos 2023
 
 Semana 01: 
 
