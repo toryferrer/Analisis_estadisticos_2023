@@ -1,7 +1,7 @@
 # Ing. Luis Miguel Toribio Ferrer
 # Análisis estadísticos 2023
-# Almacenar códigos del curso
 # Producto integrador del aprendizaje
+# Almacenar códigos del curso
 
 #Repositorio GitHub
 
@@ -47,6 +47,6 @@ Semana 08:
 + 📅 16/03/2023: [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en Rstudio.
 
 # Contribución a mi respositorio a lo largo del semestre.
-![image](https://user-images.githubusercontent.com/123662633/232903223-4f2b180b-45e2-496f-8567-1d569b480bf4.png)
+![image](https://user-images.githubusercontent.com/123662633/232937465-6c3f50f0-fc9b-49fd-a1d3-716ba742cc1f.png)
 
 
