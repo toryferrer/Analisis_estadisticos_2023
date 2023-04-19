@@ -1,3 +1,8 @@
+#Alumno: Luis Miguel Toribio Ferrer
+#Matricula: 2173385
+#Clase: restricciones 
+#fecha: 02/03/2023
+
 library(repmis)
 conjunto <- source_data("https://www.dropbox.com/s/hmsf07bbayxv6m3/cuadro1.csv?dl=1")
 head(conjunto)
