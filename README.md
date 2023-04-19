@@ -1,5 +1,5 @@
-# 🖥️  Ing. Luis Miguel Toribio Ferrer
-   # 📓     Producto Integrador del Aprendizaje
+# 🖥️   <sub> Ing. Luis Miguel Toribio Ferrer </sub>
+   # 📓  <sub> Producto Integrador del Aprendizaje </sub>
    # 🕵️‍♀️     Análisis Estadísticos 2023
  
 
@@ -40,11 +40,11 @@
 
 ***Semana 07:***
   
-📅 <sub> 09/03/2023: </sub> Clase 7: Repaso de boxplots y correlación.
++ 📅 <sub> 09/03/2023: </sub> Clase 7: Repaso de boxplots y correlación.
 
 ***Semana 08:***
 
-📅 <sub> 16/03/2023: </sub>  [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en R-Studio.
++ 📅 <sub> 16/03/2023: </sub>  [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en R-Studio.
 
 
 #  Contribución a mi respositorio a lo largo del semestre. 
