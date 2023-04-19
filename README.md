@@ -3,7 +3,7 @@
    # 🕵️‍♀️     Análisis Estadísticos 2023
  
 
-**Dessarrollo del curso de Análisis estadísticos 2023**
+**Dessarrollo del curso de análisis estadísticos 2023**
 
 ***Semana 01:***
 
@@ -31,10 +31,9 @@
 
 ***Semana 05:***
 
-📅 <sub> 23/02/2023: <sub> 
-+ Clase 5: Correlación, cuarteto de anscombe, coeficiente de correlación.
-  + 🗝️ 10/03/2023: [Laboratorio 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_5): Correlación.
-    + 📌 10/03/2023: [Tarea 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_05): Correlación.
++ 📅 <sub> 23/02/2023: </sub> Clase 5: Correlación, cuarteto de anscombe, coeficiente de correlación.
+  + 🗝️ <sub> 10/03/2023:</sub> [Laboratorio 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_5): Correlación.
+    + 📌 <sub> 10/03/2023:</sub> [Tarea 05](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_05): Correlación.
 
 ***Semana 06:***
 
