@@ -1,6 +1,6 @@
 # Ing. Luis Miguel Toribio Ferrer
-  # Producto integrador del aprendizaje
-   # Análisis estadísticos 2023
+  # 📓     Producto integrador del aprendizaje
+   # 🕵️‍♀️      Análisis estadísticos 2023
  
 
 #Repositorio GitHub
