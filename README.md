@@ -19,9 +19,8 @@
   
 ***Semana 03:***
 
-📅 <sub> 09/02/2023: <sub> 
-+ Clase 03: Importar datos desde URL's, función subset(), representaciones gráficas (histogramas, barplot).
-   + 📌 25/02/2023: [Tarea 03](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_03): Medidas de tendencia central.
++ 📅 <sub> 09/02/2023: </sub> Clase 03: Importar datos desde URL's, función subset(), representaciones gráficas (histogramas, barplot).
+   + 📌 <sub> 25/02/2023: </sub> [Tarea 03](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_03): Medidas de tendencia central.
 
 ***Semana 04:***
 
