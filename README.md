@@ -1,4 +1,4 @@
-# 🖥️ Ing. Luis Miguel Toribio Ferrer
+# 🖥️ <sup> Ing. Luis Miguel Toribio Ferrer </sup>
    # 📓     Producto Integrador del Aprendizaje
    # 🕵️‍♀️     Análisis Estadísticos 2023
  
