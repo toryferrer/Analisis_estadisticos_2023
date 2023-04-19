@@ -7,15 +7,15 @@
 
 ***Semana 01:***
 
-+ 📅 <sup> 26/01/2023:</sup> [Clase 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_1): Creación de la cuenta de GitHub y sincronización de Git con RStudio.
-    + 🗝️  <sup> 03/02/2023:</sup> [Laboratorio 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_1): Empezar con R y RStudio.
++ 📅 <sup> 26/01/2023:</sup> [Clase 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_1): Creación de la cuenta de GitHub y sincronización de Git con R-Studio.
+    + 🗝️  <sup> 03/02/2023:</sup> [Laboratorio 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_1): Empezar con R y R-Studio.
       + 📌<sup> 03/02/2023:</sup> [Tarea 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_01): Primer análisis en R.
 
 ***Semana 02:***
 
-📅 <sub> 02/02/2023: <sub> + [Clase 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_2): Generación de Script con operaciones y estadística básica, boxplot, histogramas e importación de bases de datos.
-  + 🗝️ 23/02/2023: [Laboratorio 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_3): Importar datos a R.
-    + 📌 23/02/2023: [Tarea 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_02): Uso de restricciones y estadísticas descriptivas.
++ 📅 <sub> 02/02/2023: </sub> [Clase 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_2): Generación de Script con operaciones y estadística básica, boxplot, histogramas e importación de bases de datos.
+  + 🗝️ <sub> 23/02/2023:</sub> [Laboratorio 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_3): Importar datos a R.
+    + 📌 <sub> 23/02/2023:</sub> [Tarea 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_02): Uso de restricciones y estadísticas descriptivas.
   
 ***Semana 03:***
 
