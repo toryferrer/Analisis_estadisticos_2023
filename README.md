@@ -13,7 +13,7 @@
 
 ***Semana 02:***
 
-+ 📅 <sub> 02/02/2023: </sub> [Clase 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_2): Generación de Script con operaciones y estadística básica, boxplot, histogramas e importación de bases de datos.
++ 📅 <sub> 02/02/2023: </sub> [Clase 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_2): Generación de Script con operaciones y estadísticas básicas, boxplot, histogramas e importación de bases de datos.
   + 🗝️ <sub> 23/02/2023:</sub> [Laboratorio 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_3): Importar datos a R.
     + 📌 <sub> 23/02/2023:</sub> [Tarea 02](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_02): Uso de restricciones y estadísticas descriptivas.
   
@@ -24,9 +24,9 @@
 
 ***Semana 04:***
 
-+ 📅 <sub> 16/02/2023: </sub> Clase 04: Resumir datos graficamente (Gráfica circular, histogramas).
++ 📅 <sub> 16/02/2023: </sub> Clase 04: Resumir datos gráficamente (Gráfica circular, histogramas).
   + 🗝️ <sub> 01/03/2023:</sub> [Laboratorio 04](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_4): Resumir datos gráficamente.
-    + 📌 <sub> 01/03/2023:</sub> [Tarea 04](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_04): Boxplot e Histogramas.
+    + 📌 <sub> 01/03/2023:</sub> [Tarea 04](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_04): Boxplot e histogramas.
 
 ***Semana 05:***
 
@@ -36,7 +36,7 @@
 
 ***Semana 06:***
 
-+ 📅 <sub> 02/03/2023:</sub> Clase 6: Repaso de estadística básica, importar base de datos en línea y elaboración de histogramas.
++ 📅 <sub> 02/03/2023:</sub> Clase 6: Repaso de estadísticas básicas, importar base de datos en línea y elaboración de histogramas.
 
 ***Semana 07:***
   
