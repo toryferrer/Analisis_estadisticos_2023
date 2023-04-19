@@ -7,9 +7,9 @@
 
 ***Semana 01:***
 
-+ 📅  26/01/2023: [Clase 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_1): Creación de la cuenta de GitHub y sincronización de Git con R-Studio.
-    + 🗝️  03/02/2023: [Laboratorio 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_1): Empezar con R y R-Studio.
-      + 📌  03/02/2023: [Tarea 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_01): Primer análisis en R.
++ 📅 <sub> 26/01/2023:</sub> [Clase 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Scripts/Script_1): Creación de la cuenta de GitHub y sincronización de Git con R-Studio.
+    + 🗝️ <sub>  03/02/2023:</sub> [Laboratorio 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Laboratorios/Lab_Semana_1): Empezar con R y R-Studio.
+      + 📌  <sub> 03/02/2023: </sub> [Tarea 01](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Tareas/Tarea_01): Primer análisis en R.
 
 ***Semana 02:***
 
@@ -47,7 +47,7 @@
 + 📅 <sub> 16/03/2023: </sub>  [Examen](https://github.com/toryferrer/Analisis_estadisticos_2023/tree/main/Examen): Examen práctico y teórico  en R-Studio.
 
 
-#  Contribución a mi respositorio a lo largo del semestre. 
+#  <sub> Contribución a mi respositorio a lo largo del semestre  </sub> 
 ![image](https://user-images.githubusercontent.com/123662633/232937465-6c3f50f0-fc9b-49fd-a1d3-716ba742cc1f.png)
 
 
